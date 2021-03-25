@@ -1,9 +1,14 @@
 body {
-	font-family: Tahoma;
+    font-family: Tahoma;
+    
 }
 
 header {
-	text-align: center;
+    text-align: center;
+    padding-left: 10px;
+   
+
+  
 }
 
 #calendar {
@@ -93,12 +98,9 @@ header {
 	color: #666;
 }
 
-/* ============================
-				Mobile Responsiveness
-   ============================*/
 
 
-@media(max-width: 768px) {
+@media(max-width: 1070px) {
 
 	#calendar .weekdays, #calendar .other-month {
 		display: none;
@@ -119,18 +121,20 @@ header {
                     /* NAVBAR */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
+    
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px ;
     text-decoration: none;
     font-size: 20px;
+    margin-top: 0px;
   }
   
   /* Change the color of links on hover */
@@ -141,7 +145,8 @@ header {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #8e352e;
     color: white;
   }
+  
          /* NAVBAR */
