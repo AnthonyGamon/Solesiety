@@ -1,6 +1,6 @@
 body {
-    font-family: Tahoma;
-    
+	font-family: Tahoma;
+	padding-bottom: 50px;
 }
 
 header {
@@ -12,7 +12,10 @@ header {
 }
 
 #calendar {
-	width: 100%;	
+	width: 90%;	
+	margin: auto;
+	
+	
 }
 
 #calendar a {
@@ -25,6 +28,7 @@ header {
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	
 }
 
 #calendar li {
@@ -54,7 +58,7 @@ header {
 }
 
 #calendar .days li {
-	height: 130px;
+	height: 150px;
 }
 
 #calendar .days li:hover {
@@ -75,10 +79,11 @@ header {
 #calendar .event {
 	clear: both;
 	display: block;
-	font-size: 13px;
+	font-size: 15px;
 	border-radius: 4px;
-	
-	
+	padding: 5px;
+	margin-top: 40px;
+	margin-bottom: 5px;
 	line-height: 14px;
 	background: #e4f2f2;
 	border: 1px solid #b5dbdc;
@@ -99,7 +104,7 @@ header {
 
 
 
-@media(max-width: 1070px) {
+@media(max-width: 1600px) {
 
 	#calendar .weekdays, #calendar .other-month {
 		display: none;
@@ -130,10 +135,9 @@ header {
     float: right;
     color: black;
     text-align: center;
-    padding: 5px ;
+    padding: 14px ;
     text-decoration: none;
     font-size: 20px;
-    margin-top: 0px;
   }
   
   /* Change the color of links on hover */
