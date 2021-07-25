@@ -1,15 +1,3 @@
-body {
-	font-family: Tahoma;
-	padding-bottom: 50px;
-}
-
-header {
-    text-align: center;
-    padding-left: 10px;
-   
-
-  
-}
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body {
   background: #797b84;
@@ -42,35 +30,3 @@ body {
 
 
 
-
-                    /* NAVBAR */
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: white;
-    overflow: hidden;
-    
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px ;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #8e352e;
-    color: white;
-  }
-  
-         /* NAVBAR */
